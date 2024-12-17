@@ -29,6 +29,8 @@ int main(int argc, char* argv[])
 
 	if (dayNum == 1) day1(inputFile, partB);
 	else if (dayNum == 2) day2(inputFile, partB);
+	else if (dayNum == 3) day3(inputFile, partB);
+	else if (dayNum == 4) day4(inputFile, partB);
 
 	return 0;
 }
