@@ -31,6 +31,13 @@ int main(int argc, char* argv[])
 	else if (dayNum == 2) day2(inputFile, partB);
 	else if (dayNum == 3) day3(inputFile, partB);
 	else if (dayNum == 4) day4(inputFile, partB);
+	else if (dayNum == 5) day5(inputFile, partB);
+	else if (dayNum == 6) day6(inputFile, partB);
+	else if (dayNum == 7) day7(inputFile, partB);
+	else if (dayNum == 8) day8(inputFile, partB);
+	else if (dayNum == 9) day9(inputFile, partB);
+	else if (dayNum == 10) day10(inputFile, partB);
+
 
 	return 0;
 }

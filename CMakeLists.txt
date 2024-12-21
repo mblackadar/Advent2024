@@ -12,7 +12,7 @@ endif()
 project ("Advent2024")
 
 # Add source to this project's executable.
-add_executable (Advent2024 "source/Advent2024.cpp" "source/Advent2024.h"  "source/day1.cpp" "source/day2.cpp" "source/day3.cpp" "source/day4.cpp"  "source/Grid.h")
+add_executable (Advent2024 "source/Advent2024.cpp" "source/Advent2024.h"  "source/day1.cpp" "source/day2.cpp" "source/day3.cpp" "source/day4.cpp"  "source/Grid.h" "source/day5.cpp" "source/day6.cpp" "source/day7.cpp" "source/day8.cpp" "source/day9.cpp" "source/day10.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Advent2024 PROPERTY CXX_STANDARD 20)
