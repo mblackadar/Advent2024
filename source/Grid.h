@@ -9,10 +9,10 @@ template<typename T>
 class Grid {
 public:
 
-	void initialize(int w, int h) {
+	void initialize(int w, int h, T def = {}) {
 		width = w;
 		height = h;
-		cells.resize(w * h);
+		cells.resize(w * h, def);
 	}
 
 	bool isValid(int x, int y) const {
